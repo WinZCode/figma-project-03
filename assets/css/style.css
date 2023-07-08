@@ -663,4 +663,33 @@ a {
     color: var(--secondary-color);
 }
 
+/** APPOINTMENT */
+.appointment {
+    margin-top: 85px;
+    padding: 85px 0;
+}
 
+.appointment__inner {
+    padding: 100px 0;
+    background: var(--extra-color);
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.appointment__heading::after {
+    content: "";
+    display: block;
+    margin: 18px auto;
+    width: 136px;
+    height: 2px;
+    background: var(--primary-color);
+}
+
+.appointment__desc {
+    min-width: 617px;
+}
+
+.appointment__btn {
+    margin-top: 38px;
+}
