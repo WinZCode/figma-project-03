@@ -24,6 +24,11 @@ body {
     margin: 0 auto;
 }
 
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
 a {
     text-decoration: none;
 }
@@ -140,6 +145,7 @@ a {
 .logo__brand {
     display: block;
     font-size: 1.8em;
+    font-family: Sora, sans-serif;
     font-weight: 400;
     color: #fff;
 }
@@ -693,3 +699,116 @@ a {
 .appointment__btn {
     margin-top: 38px;
 }
+
+/** FOOTER */
+.footer {
+    margin-top: 85px;
+    padding-top: 100px;
+    background: var(--secondary-color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer__row {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+    column-gap: 78px;
+}
+
+.footer__desc {
+    margin-top: 22px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #a9b3bb;
+}
+
+.footer__heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #fff;
+}
+
+.footer__list {
+    margin-bottom: 28px;
+}
+
+.footer__link {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #a9b3bb;
+    white-space: nowrap;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__item {
+    margin-bottom: 22px;
+}
+
+.footer__social {
+    margin-bottom: 28px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.footer__social-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s;
+}
+
+
+.footer__social-btn:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.footer__form {
+    margin-top: 10px;
+    column-gap: 12px;
+    display: flex;
+}
+.footer__input {
+    width: 212px;
+    height: 46px;
+    border-radius: 4px;
+    border: 1px solid #406181;
+    outline: none;
+    background: transparent;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.footer__input::placeholder {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #C9D2DA;
+}
+
+.footer__btn {
+    --height:46px;
+    min-width: 108px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+}
+
+.footer__copyright {
+    border-top:1px solid #406181 ;
+    padding:28px 0 42px;
+}
+
+.footer__copyright-text {
+    font-size: 1.6rem;
+    line-height: 1.86;
+    text-align: center;
+}
+
