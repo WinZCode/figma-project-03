@@ -519,4 +519,43 @@ a {
     rotate: 180deg;
 }
 
+/** INSTALL */
+.install {
+    margin-top: 180px;
+}
 
+.install__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    background: var(--primary-color);
+    border-radius: 4px;
+}
+
+.install__img {
+    display: block;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+    margin-top: -95px;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading {
+    max-width: 489px;
+    color: #fff;
+}
+
+.install__desc {
+    color: #fff;
+}
+
+.install__row {
+    margin-top: 38px;
+    display: flex;
+    column-gap: 28px;
+}
